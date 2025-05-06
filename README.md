@@ -20,6 +20,7 @@ To set up the Julia package with the necessary dependencies, run
 ```bash
 julia scripts/setup.jl
 ```
+> **NOTE**: You must have Julia downloaded and installed. You can install the latex version [here](https://julialang.org/downloads/). We recommend having at least version 1.11.
 #### 3. Data visualization
 To filter and visualize our datasets, check out the `examples/00_data_viz.ipynb` notebook. Make sure to download the data in the `data` directory before running this notebook.
 #### 4. Inference on simulated system without cues
