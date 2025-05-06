@@ -7,7 +7,7 @@
 This is the official repository for the paper [**_Predicting mosquito flight behavior using Bayesian dynamical systems learning_**](link_to_paper_coming_soon).
 We combine 3D infrared tracking of *Aedes aegypti* with Bayesian dynamical systems inference to learn quantitative biophysical models of mosquito host-seeking behavior.
 
-## <img src="docs/mosquito_launch.png" alt="mosquito" height="40"/> Quick Start
+## <img src="docs/mosquito_launch.png" alt="mosquito" height="60"/> Quick Start
 
 #### 1. Data download:
 The data is hosted on [zenodo](https://zenodo.org/records/15277051). To download the dataset, we have provided a bash script `scripts/download_data.sh`. You can run this script with
