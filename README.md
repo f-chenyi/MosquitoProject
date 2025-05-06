@@ -30,12 +30,12 @@ To see a walk through of how to perform inference on a simulated system of mosqu
 #### 6. Inference on real mosquito data with visual cues
 To see a walk through of how to perform inference on a mosquito dataset with visual cues, see `examples/03_Real_VisualCue.ipynb`. In this notebook, we recreate Figure 3 C and E in our paper.
 
-## Interactive web application
+## <img src="docs/spongebob.png" alt="spongebob" height="50"/> Interactive web application
 We developed an [interactive web application](mosquitoapp-production.up.railway.app) for users to explore our models. The application allows users to specify which sensory cues are present, originating at the center of the image in the screen. Mosquitos move in real time and the user can move the image around to change the position of the cues. Users can also replace the default spongebob image for fun!
 
-## Acknowledgements
+## 🙏 Acknowledgements
 TODO: CDC
 
-## Citation
+## 📌 Citation
 Please cite our paper if you find it useful for your work.
 TODO: add citation
