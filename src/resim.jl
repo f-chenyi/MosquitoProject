@@ -4,27 +4,27 @@ function define_sde_prob(model::M; u0=zeros(2*model.ndim), tspan=(0.0, 1.0)) whe
 end
 
 function sde_sim(model::M, u0::Vector{<:Number}, tspan::Tuple{<:Number, <:Number}=(0.0, 1.0), solver=EM();
-                 dts=0.01, ode_args...) where M <: ODEModels
+    dts=0.01, ode_args...) where M <: ODEModels
+    
     prob = define_sde_prob(model; u0=u0, tspan=tspan);
     sol = solve(prob, solver; saveat=dts, tstops=collect(tspan[1]:dts:tspan[2]), ode_args...)
     cache_sol = Array(sol');
-    tmax = floor( Int, (prob.tspan[2] - prob.tspan[1]) / dts ) + 1
 
-    return sol.t[1:tmax], cache_sol[1:tmax,1:model.ndim], cache_sol[1:tmax,(model.ndim+1):(2*model.ndim)]
+    return sol.t, cache_sol[:,1:model.ndim], cache_sol[:,(model.ndim+1):(2*model.ndim)]
 end
 
 
 function sde_sim(model::M, u0::Vector{Vector{T1}}, tspan::Vector{Tuple{T2, T3}}, solver=EM();
-                      dts=0.01, ode_args...) where {M <: ODEModels, T1 <: Number, T2 <: Number, T3 <: Number}
-    
+         dts=0.01, ode_args...) where {M <: ODEModels, T1 <: Number, T2 <: Number, T3 <: Number}
+
     (length(u0) != length(tspan)) && (error("DimensionError: dimensions of u0 and tspan don't match"))
-    
+
     prob = define_sde_prob(model);
-    
+
     rarray = Vector{Matrix{Float64}}(undef, length(u0))
     varray = Vector{Matrix{Float64}}(undef, length(u0))
     tarray = Vector{Vector{Float64}}(undef, length(u0))
-    
+
     for n = 1:length(u0)
         prob_n = remake( prob; tspan=tspan[n], u0=u0[n]);
         sol_n = solve(prob_n, solver; saveat=dts, tstops=collect(prob_n.tspan[1]:dts:prob_n.tspan[2]), ode_args...)
