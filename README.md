@@ -24,11 +24,13 @@ julia scripts/setup.jl
 #### 3. Data visualization
 To filter and visualize our datasets, check out the `examples/00_data_viz.ipynb` notebook. Make sure to download the data in the `data` directory before running this notebook.
 #### 4. Inference on simulated system without cues
-To see a walk through of how to perform inference on a simulated system of mosquitos without any sensory cues, see `examples/01_Sim_NoCues.ipynb`.
+To see a walk through of how to perform inference on a simulated system of mosquitos without any sensory cues, see `examples/01_Sim_NoCues.ipynb`. In this notebook, we recreate Figure S3 in our paper.
 #### 5. Inference on simulated system with repelling
-To see a walk through of how to perform inference on a simulated system of mosquitos that are repelled from a center point, see `examples/02_Sim_Repellent.ipynb`.
+To see a walk through of how to perform inference on a simulated system of mosquitos that are repelled from a center point, see `examples/02_Sim_Repellent.ipynb`. In this notebook, we recreate Figure S4 in our paper.
 #### 6. Inference on real mosquito data with visual cues
-To see a walk through of how to perform inference on a mosquito dataset with visual cues, see `examples/03_Real_VisualCue.ipynb`. In this notebook, we recreate Figure 3 C and E in our paper.
+To see a walk through of how to perform inference on a mosquito dataset with visual and CO<sub>2</sub> cues, see `examples/03_Real_Inference.ipynb`. In this notebook, we recreate Figure 4 B and C in our paper.
+#### 7. Simulation of inferred mosquito models
+To see a walk through of how to simulate the inferred mosquito models and generate synthetic trajectories, see `examples/04_Real_LearnedModels.ipynb`. In this notebook, we create plots similar to Figure 5 C, F, I, and L of our paper.
 
 ## <img src="docs/spongebob.png" alt="spongebob" height="50"/> Interactive web application
 We developed an [interactive web application](mosquitoapp-production.up.railway.app) for users to explore our models. The application allows users to specify which sensory cues are present, originating at the center of the image in the screen. Mosquitos move in real time and the user can move the image around to change the position of the cues. Users can also replace the default spongebob image for fun!
