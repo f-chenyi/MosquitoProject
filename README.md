@@ -2,10 +2,7 @@
 
 <div align="center" style="display: flex; justify-content: center; align-items: center;">
 	<img src="docs/human_3d_tracks.png" alt="logo" height="300"></img>
-	<video height="300" autoplay loop muted playsinline>
-		<source src="docs/human_experiment.mp4" type="video/mp4">
-		Your browser does not support the video tag.
-	</video>
+	<img src="docs/human_experiment.gif" alt="experiment" height="300"></img>
 </div>
 
 
