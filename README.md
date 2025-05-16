@@ -9,10 +9,6 @@
 </div>
 
 
-https://github.com/user-attachments/assets/18b462e5-650b-4fbf-b808-130df83f00bd
-
-
-
 This is the official repository for the paper [**_Predicting mosquito flight behavior using Bayesian dynamical systems learning_**](link_to_paper_coming_soon).
 We combine 3D infrared tracking of *Aedes aegypti* with Bayesian dynamical systems inference to learn quantitative biophysical models of mosquito host-seeking behavior.
 
