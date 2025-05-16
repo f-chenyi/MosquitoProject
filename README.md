@@ -1,8 +1,13 @@
 # Predicting moqsuito flight behavior using Bayesian dynamical systems learning <img src="docs/mosquito.png" alt="mosquito" height="35"/>
 
-<div align="center">
-	<img src="docs/human_3d_tracks.png" alt="logo" width="512"></img>
+<div align="center" style="display: flex; justify-content: center; align-items: center;">
+	<img src="docs/human_3d_tracks.png" alt="logo" height="300"></img>
+	<video height="300" autoplay loop muted playsinline>
+		<source src="docs/human_experiment.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+	</video>
 </div>
+
 
 This is the official repository for the paper [**_Predicting mosquito flight behavior using Bayesian dynamical systems learning_**](link_to_paper_coming_soon).
 We combine 3D infrared tracking of *Aedes aegypti* with Bayesian dynamical systems inference to learn quantitative biophysical models of mosquito host-seeking behavior.
