@@ -42,4 +42,11 @@ TODO: CDC
 
 ## 📌 Citation
 Please cite our paper if you find it useful for your work.
-TODO: add citation
+```
+@article{zuo2025predicting,
+  title={Predicting mosquito flight behavior using Bayesian dynamical systems learning},
+  author={Zuo, Christopher and Fei, Chenyi and Cohen, Alexander E and Kim, Soohwan and Carde, Ring T and Dunkel, J{\"o}rn and Hu, David L},
+  journal={arXiv preprint arXiv:2505.13615},
+  year={2025}
+}
+```
