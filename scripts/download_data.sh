@@ -7,7 +7,7 @@ set -e  # Exit immediately if a command exits with a non-zero status
 
 # Default values
 ZENODO_RECORD_ID="15277051"
-DESTINATION_DIR=${2:-"data"}
+DESTINATION_DIR=${1:-"data"}
 
 # Function to display usage instructions
 usage() {
