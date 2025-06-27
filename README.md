@@ -6,7 +6,7 @@
 </div>
 
 
-This is the official repository for the paper [**_Predicting mosquito flight behavior using Bayesian dynamical systems learning_**](link_to_paper_coming_soon).
+This is the official repository for the paper [**_Predicting mosquito flight behavior using Bayesian dynamical systems learning_**](https://arxiv.org/abs/2505.13615).
 We combine 3D infrared tracking of *Aedes aegypti* with Bayesian dynamical systems inference to learn quantitative biophysical models of mosquito host-seeking behavior.
 
 ## <img src="docs/mosquito_launch.png" alt="mosquito" height="60"/> Quick Start
