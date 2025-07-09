@@ -35,7 +35,7 @@ To see a walk through of how to perform inference on a mosquito dataset with vis
 To see a walk through of how to simulate the inferred mosquito models and generate synthetic trajectories, see `examples/04_Real_LearnedModels.ipynb`. In this notebook, we create plots similar to Figure 5 C, F, I, and L of our paper.
 
 ## <img src="docs/spongebob.png" alt="spongebob" height="50"/> Interactive web application
-We developed an [interactive web application](mosquitoapp-production.up.railway.app) for users to explore our models. The application allows users to specify which sensory cues are present, originating at the center of the image in the screen. Mosquitos move in real time and the user can move the image around to change the position of the cues. Users can also replace the default spongebob image for fun!
+We developed an [interactive web application](https://mosquitoapp-production.up.railway.app/) for users to explore our models. The application allows users to specify which sensory cues are present, originating at the center of the image in the screen. Mosquitos move in real time and the user can move the image around to change the position of the cues. Users can also replace the default spongebob image for fun!
 
 ## 🙏 Acknowledgements
 TODO: CDC
