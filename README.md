@@ -8,7 +8,7 @@
 
 This is the official repository for the paper [**_Predicting mosquito flight behavior using Bayesian dynamical systems learning_**](https://arxiv.org/abs/2505.13615).
 We combine 3D infrared tracking of *Aedes aegypti* with Bayesian dynamical systems inference to learn quantitative biophysical models of mosquito host-seeking behavior.
-#### 🌐 [Launch the interactive website](https://cfei1994-mosquito-app.hf.space/)
+#### 🌐 [Launch the interactive website](https://mosquitoapp.up.railway.app/)[[Backup](https://cfei1994-mosquito-app.hf.space/)]
 
 ## <img src="docs/mosquito_launch.png" alt="mosquito" height="60"/> Quick Start
 
@@ -36,7 +36,7 @@ To see a walk through of how to perform inference on a mosquito dataset with vis
 To see a walk through of how to simulate the inferred mosquito models and generate synthetic trajectories, see `examples/04_Real_LearnedModels.ipynb`. In this notebook, we create plots similar to Figure 5 C, F, I, and L of our paper.
 
 ## <img src="docs/spongebob.png" alt="spongebob" height="50"/> Interactive web application
-We developed an [interactive web application](https://cfei1994-mosquito-app.hf.space/) for users to explore our models. The application allows users to specify which sensory cues are present, originating at the center of the image in the screen. Mosquitos move in real time and the user can move the image around to change the position of the cues. Users can also replace the default image of Tim the Beaver for fun!
+We developed an [interactive web application](https://mosquitoapp.up.railway.app/) for users to explore our models. The application allows users to specify which sensory cues are present, originating at the center of the image in the screen. Mosquitos move in real time and the user can move the image around to change the position of the cues. Users can also replace the default image of Tim the Beaver for fun!
 
 ## 🙏 Acknowledgements
 TODO: CDC
