@@ -39,7 +39,7 @@ To see a walk through of how to simulate the inferred mosquito models and genera
 We developed an [interactive web application](https://acoh64.github.io/mosquito_app/) for users to explore our models. The application allows users to specify which sensory cues are present, originating at the center of the image in the screen. Mosquitos move in real time and the user can move the image around to change the position of the cues. Users can also replace the default image of Tim the Beaver for fun!
 
 ## 🙏 Acknowledgements
-TODO: CDC
+We would like to thank Dr. Ellen Dotson and Laura Leite of the CDC, and Catherine Steele from the CDC Foundation for discussions and their work rearing and raising the mosquitoes. We would like to thank Dr. James Sutcliffe (Emeritus, Trent University), for discussions on mosquito behavior, operating the photonic sentry and explaining his experimental set up. We also appreciate Alison Wang’s assistance in running the experiments with Anopheles mosquitoes.
 
 ## 📌 Citation
 Please cite our paper if you find it useful for your work.
