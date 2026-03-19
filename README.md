@@ -6,7 +6,7 @@
 </div>
 
 
-This is the official repository for the paper [**_Predicting mosquito flight behavior using Bayesian dynamical systems learning_**](https://arxiv.org/abs/2505.13615).
+This is the official repository for the paper [**_Predicting mosquito flight behavior using Bayesian dynamical systems learning_**](https://www.science.org/doi/10.1126/sciadv.adz7063).
 We combine 3D infrared tracking of *Aedes aegypti* with Bayesian dynamical systems inference to learn quantitative biophysical models of mosquito host-seeking behavior.
 #### 🌐 [Launch the interactive website](https://acoh64.github.io/mosquito_app/) [[Backup](https://cfei1994-mosquito-app.hf.space/)]
 
@@ -44,10 +44,17 @@ We would like to thank Dr. Ellen Dotson and Laura Leite of the CDC, and Catherin
 ## 📌 Citation
 Please cite our paper if you find it useful for your work.
 ```
-@article{zuo2025predicting,
-  title={Predicting mosquito flight behavior using Bayesian dynamical systems learning},
-  author={Zuo, Christopher and Fei, Chenyi and Cohen, Alexander E and Kim, Soohwan and Carde, Ring T and Dunkel, J{\"o}rn and Hu, David L},
-  journal={arXiv preprint arXiv:2505.13615},
-  year={2025}
+@article{zuo2026predicting
+	doi:10.1126/sciadv.adz7063,
+	author = {Christopher Zuo  and Chenyi Fei  and Alexander E. Cohen  and Soohwan Kim  and Ring T. Cardé  and Jörn Dunkel  and David L. Hu },
+	title = {Predicting mosquito flight behavior using Bayesian dynamical systems learning},
+	journal = {Science Advances},
+	volume = {12},
+	number = {12},
+	pages = {eadz7063},
+	year = {2026},
+	doi = {10.1126/sciadv.adz7063},
+	URL = {https://www.science.org/doi/abs/10.1126/sciadv.adz7063},
+	eprint = {https://www.science.org/doi/pdf/10.1126/sciadv.adz7063},
 }
 ```
